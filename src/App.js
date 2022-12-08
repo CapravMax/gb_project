@@ -11,7 +11,9 @@ function App () {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          {message.text} <span> {message.name}</span>
+          <span>{message.text}</span>
+          <span> {message.name}</span>
+          <p>{message.surname}</p>
         </p>
         
       </header>
